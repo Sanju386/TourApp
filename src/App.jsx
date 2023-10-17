@@ -1,13 +1,17 @@
 import Tour from "./Tour"
+import Context from "./Context"
 
 function App() {
   
 
   return (
-    <>
-    <Tour/>
+    <Context>
+ <Tour/>
+
+    </Context>
+   
       
-    </>
+   
   )
 }
 
