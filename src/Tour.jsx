@@ -41,7 +41,7 @@ dispatch({type:"SETTOUR",payload: dataList})
       {loader ? <span className="loader"></span> : (
         <section>
           <div className="title">
-            <h2>{tours.length ? "Our Tours" : "No Tours Left"} </h2>
+            <h2>{tours.length ? "My TripPlan" : "No Tours Left"} </h2>
             <div className="title-underline"></div>
 
             {!tours.length ? (
